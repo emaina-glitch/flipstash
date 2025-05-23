@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlipStash</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      color: #00ffae;
+    }
+    p {
+      max-width: 700px;
+      text-align: center;
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #00ffc6;
+    }
+    .product {
+      background: #1e2a38;
+      padding: 1.5em;
+      margin: 1em 0;
+      border-radius: 12px;
+      border: 1px solid #00ffae33;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 4px 15px rgba(0, 255, 174, 0.1);
+    }
+    .product h3 {
+      margin: 0;
+      color: #00ffae;
+    }
+    .product p {
+      margin: 0.5em 0 0;
+      color: #c4f2e8;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 1em;
+    }
+    .contact {
+      margin-top: 2em;
+      background: #132028;
+      padding: 1.5em 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 255, 174, 0.2);
+    }
+    .sms {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #00ffc6;
+    }
+    a {
+      color: #00ffc6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>FlipStash</h1>
+  <p>
+    My name is <span class="highlight">Ephraim</span>, and I’m a student offering quality, affordable items. Each product is clean, tested, and in good condition.
+  </p>
+
+  <!-- Just replace the image src with your photo URL or local file path -->
+  <div class="product">
+    <h3>Item Name Here – $Price</h3>
+    <p>Short description about the item. Mention condition or cool features.</p>
+    <img src="your-image-url-here.jpg" alt="Item Photo" />
+  </div>
+
+  <div class="product">
+    <h3>Item Name Here – $Price</h3>
+    <p>Short description about the item. Mention condition or cool features.</p>
+    <img src="your-image-url-here.jpg" alt="Item Photo" />
+  </div>
+
+  <!-- Add more product blocks above as needed -->
+
+  <div class="contact">
+    <p class="sms">📱 Contact to Purchase: <a href="sms:1234567890">Click to Text</a></p>
+    <p>Feel free to ask about delivery or meet-up options. Thank you for your support!</p>
+  </div>
+</body>
+</html>
+
